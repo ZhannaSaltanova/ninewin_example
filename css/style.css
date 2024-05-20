@@ -4,10 +4,10 @@
 
 :root {
     --font-family: 'Montserrat',  sans-serif;
-    --color-light: [[COLOR2]];
-    --bg-dark:[[COLOR1]];
-    --current-color:[[COLOR2]];
-    --color-accent: [[COLOR3]];
+    --color-light: #ffffff;
+    --bg-dark:#060E2A;
+    --current-color:#ffffff;
+    --color-accent: #1DD063;
   }
 body {
     font-family: var(--font-family);
