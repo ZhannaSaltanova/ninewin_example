@@ -120,14 +120,14 @@ p {
     filter: brightness(140%);
     height: 32px;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     padding: 0 10px;
 }
 .header__logo-nav ul {
     display: flex;
     align-items:center;
-    justify-content: center;
-    gap:10px;
+    justify-content: space-around;
+    margin: 0;
 }
 .header__logo-nav ul li {
     display: flex;
@@ -138,6 +138,7 @@ p {
     font-weight: 600;
     height: 32px;
     cursor: pointer;
+    margin: 0;
 }
 .header__logo-nav ul li svg {
     margin-right: 5px;
@@ -438,6 +439,7 @@ main {
     color: var(--color-accent);
     font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
  }
 .banner__box-h1 {
     font-size: 30px;
@@ -448,7 +450,6 @@ main {
  }
 strong { 
     margin-bottom: 24px;
-    font-size: 30px;
     line-height: 1.4;
     color: var(--color-accent);
     font-weight: 700;
@@ -1023,4 +1024,5 @@ hr {
 }
 ol, ul, li {
 	margin-left: 20px;
+    line-height: 1.5;
 }
