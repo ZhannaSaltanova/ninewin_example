@@ -5,7 +5,7 @@
 :root {
     --font-family: 'Montserrat',  sans-serif;
     --color-light: #ffffff;
-    --bg-dark:#060E2A;
+    --bg-dark:#060E2A ;
     --current-color:#ffffff;
     --color-accent: #1DD063;
   }
@@ -813,19 +813,20 @@ strong {
   }
   
   td {
-    border: none; 
+    border: 1px double var(--color-light);
     padding: 20px; 
     white-space: nowrap; 
   }
   tr {
-    background-color: rgba(117, 117, 117, 0.407);
-    filter: brightness(180%);
+    background-color: rgba(117, 117, 117, 0.164);
+    
   }
   th {
     padding: 20px;
     white-space: nowrap; 
     font-size: 20px;
     font-weight: 700;
+    
   }
   @media (max-width: 1280px) {
     .table-wrapper {
