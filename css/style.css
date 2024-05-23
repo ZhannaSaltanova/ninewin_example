@@ -26,7 +26,7 @@ h1 {
 }
 h2 {
     margin: 0 0 30px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
@@ -857,7 +857,11 @@ main {
     }
 }
   
-
+.btn {
+    padding: 20px 90px;
+    font-size: 35px;
+    margin: 30px;
+}
 @media screen and (max-width: 1280px) {
     .text { 
         padding: 10px;
